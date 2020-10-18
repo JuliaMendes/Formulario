@@ -1,0 +1,39 @@
+body{
+  text-align:center;
+  font-family: Open Sans, sans-serif;
+  color:black;
+}
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+textarea{
+    vertical-align: top;
+    height: 6em;
+    width: 22em;
+    resize: vertical;
+}
+button{
+  background-color:blue;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  
+}
+input{
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    }
+
